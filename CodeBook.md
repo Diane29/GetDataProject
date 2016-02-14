@@ -25,10 +25,10 @@ There are 68 variables in the dataset
 - 26 Frequency Domain Signals with either mean or standad deviation
 
 ### Abbreviations
-StdDev- Standard Deviation
-Acc - Acceleration
-Mag - Magnitude
-XYZ - 3-axial signals in the X, Y and Z directions
+- StdDev-Standard Deviation
+- Acc-Acceleration
+- Mag-Magnitude
+- XYZ-3-axial signals in the X, Y and Z directions
 
 ### Subject 
 - number (1-30) identifying the subject in the data
