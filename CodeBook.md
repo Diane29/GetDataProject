@@ -31,13 +31,13 @@ Mag - Magnitude
 XYZ - 3-axial signals in the X, Y and Z directions
 
 ### Subject 
-- number indentifying the subject in the data
+- number (1-30) identifying the subject in the data
 
 ### Activity 
-- type of activity associted with measurements (signals) listed below
-  1 - WALKING
-  2 - WALKING_UPSTAIRS
-  3 - WALKING_DOWNSTAIRS
-  4 - SITTING
-  5 - STANDING
-  6 - LAYING
+- type of activity associated with measurements (signals) listed above
+  1) WALKING
+  2) WALKING_UPSTAIRS
+  3) WALKING_DOWNSTAIRS
+  4) SITTING
+  5) STANDING
+  6) LAYING
