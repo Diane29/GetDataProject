@@ -30,8 +30,8 @@ Acc - Acceleration
 Mag - Magnitude
 XYZ - 3-axial signals in the X, Y and Z directions
 
-Subject - the number indentifying the subject in the data
-Activity - the type of activity associted with measurements (signals) listed below
+- Subject - the number indentifying the subject in the data
+- Activity - the type of activity associted with measurements (signals) listed below
   1 - WALKING
   2 - WALKING_UPSTAIRS
   3 - WALKING_DOWNSTAIRS
@@ -41,31 +41,30 @@ Activity - the type of activity associted with measurements (signals) listed bel
 
 
 Time Domain Signals:-          	
-TimeBodyAcc-Mean-X		TimeBodyAcc-Mean-Y		TimeBodyAcc-Mean-Z
-TimeBodyAcc-StdDev-X		TimeBodyAcc-StdDev-Y		TimeBodyAcc-StdDev-Z          
-TimeGravityAcc-Mean-X		TimeGravityAcc-Mean-Y		TimeGravityAcc-Mean-Z
-TimeGravityAcc-StdDev-X		TimeGravityAcc-StdDev-Y		TimeGravityAcc-StdDev-Z       
-TimeBodyAccJerk-Mean-X         	TimeBodyAccJerk-Mean-Y		TimeBodyAccJerk-Mean-Z
-TimeBodyAccJerk-StdDev-X	TimeBodyAccJerk-StdDev-Y	TimeBodyAccJerk-StdDev-Z      
-TimeBodyGyro-Mean-X            	TimeBodyGyro-Mean-Y    		TimeBodyGyro-Mean-Z
-TimeBodyGyro-StdDev-X         	TimeBodyGyro-StdDev-Y          	TimeBodyGyro-StdDev-Z         
-TimeBodyGyroJerk-Mean-X		TimeBodyGyroJerk-Mean-Y       	TimeBodyGyroJerk-Mean-Z
-TimeBodyGyroJerk-StdDev-X     	TimeBodyGyroJerk-StdDev-Y	TimeBodyGyroJerk-StdDev-Z    
-TimeBodyAccMag-Mean 	        TimeBodyAccMag-StdDev         
-TimeGravityAccMag-Mean		TimeGravityAccMag-StdDev      
-TimeBodyAccJerkMag-Mean         TimeBodyAccJerkMag-StdDev     
-TimeBodyGyroMag-Mean            TimeBodyGyroMag-StdDev        
-TimeBodyGyroJerkMag-Mean       	TimeBodyGyroJerkMag-StdDev
+-TimeBodyAcc-Mean-X		-TimeBodyAcc-Mean-Y		-TimeBodyAcc-Mean-Z
+-TimeBodyAcc-StdDev-X		-TimeBodyAcc-StdDev-Y		-TimeBodyAcc-StdDev-Z          
+-TimeGravityAcc-Mean-X		-TimeGravityAcc-Mean-Y		-TimeGravityAcc-Mean-Z
+-TimeGravityAcc-StdDev-X	-TimeGravityAcc-StdDev-Y	-TimeGravityAcc-StdDev-Z       
+-TimeBodyAccJerk-Mean-X         -TimeBodyAccJerk-Mean-Y		-TimeBodyAccJerk-Mean-Z
+-TimeBodyAccJerk-StdDev-X	-TimeBodyAccJerk-StdDev-Y	-TimeBodyAccJerk-StdDev-Z      
+-TimeBodyGyro-Mean-X            -TimeBodyGyro-Mean-Y    	-TimeBodyGyro-Mean-Z
+-TimeBodyGyro-StdDev-X         	-TimeBodyGyro-StdDev-Y          -TimeBodyGyro-StdDev-Z         
+-TimeBodyGyroJerk-Mean-X	-TimeBodyGyroJerk-Mean-Y       	-TimeBodyGyroJerk-Mean-Z
+-TimeBodyGyroJerk-StdDev-X     	-TimeBodyGyroJerk-StdDev-Y	-TimeBodyGyroJerk-StdDev-Z    
+-TimeBodyAccMag-Mean 	        -TimeBodyAccMag-StdDev         
+-TimeGravityAccMag-Mean		-TimeGravityAccMag-StdDev      
+-TimeBodyAccJerkMag-Mean        -TimeBodyAccJerkMag-StdDev     
+-TimeBodyGyroMag-Mean           -TimeBodyGyroMag-StdDev        
+-TimeBodyGyroJerkMag-Mean       -TimeBodyGyroJerkMag-StdDev
 
 Frequency Domain Signals:-    
-FreqBodyAcc-Mean-X   		FreqBodyAcc-Mean-Y           	FreqBodyAcc-Mean-Z
-FreqBodyAcc-StdDev-X          	FreqBodyAcc-StdDev-Y          	FreqBodyAcc-StdDev-Z          
-FreqBodyAccJerk-Mean-X         	FreqBodyAccJerk-Mean-Y       	FreqBodyAccJerk-Mean-Z
-FreqBodyAccJerk-StdDev-X      	FreqBodyAccJerk-StdDev-Y       	FreqBodyAccJerk-StdDev-Z      
-FreqBodyGyro-Mean-X        	FreqBodyGyro-Mean-Y           	FreqBodyGyro-Mean-Z  
-FreqBodyGyro-StdDev-X         	FreqBodyGyro-StdDev-Y          	FreqBodyGyro-StdDev-Z         
-FreqBodyAccMag-Mean            	FreqBodyAccMag-StdDev  
-FreqBodyBodyAccJerkMag-Mean    	FreqBodyBodyAccJerkMag-StdDev 
-FreqBodyBodyGyroMag-Mean       	FreqBodyBodyGyroMag-StdDev 
-FreqBodyBodyGyroJerkMag-Mean   	FreqBodyBodyGyroJerkMag-StdDev
-================================================================================================================
+-FreqBodyAcc-Mean-X   		-FreqBodyAcc-Mean-Y           	-FreqBodyAcc-Mean-Z
+-FreqBodyAcc-StdDev-X          	-FreqBodyAcc-StdDev-Y          	-FreqBodyAcc-StdDev-Z          
+-FreqBodyAccJerk-Mean-X         -FreqBodyAccJerk-Mean-Y       	-FreqBodyAccJerk-Mean-Z
+-FreqBodyAccJerk-StdDev-X      	-FreqBodyAccJerk-StdDev-Y       -FreqBodyAccJerk-StdDev-Z      
+-FreqBodyGyro-Mean-X        	-FreqBodyGyro-Mean-Y           	-FreqBodyGyro-Mean-Z  
+-FreqBodyGyro-StdDev-X         	-FreqBodyGyro-StdDev-Y          -FreqBodyGyro-StdDev-Z         
+-FreqBodyAccMag-Mean            -FreqBodyAccMag-StdDev  
+-FreqBodyBodyAccJerkMag-Mean    -FreqBodyBodyAccJerkMag-StdDev 
+-FreqBodyBodyGyroMag-Mean       -FreqBodyBodyGyroMag-StdDev 
+-FreqBodyBodyGyroJerkMag-Mean   -FreqBodyBodyGyroJerkMag-StdDev
