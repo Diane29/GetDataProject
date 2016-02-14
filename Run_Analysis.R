@@ -1,4 +1,3 @@
-library(reshape2)
 setwd("/Users/Diane/Documents/GetDataProj/")
 
 ## Input Training datasets stored in a local folder
@@ -52,6 +51,7 @@ colnames(mergeData) <- Desc_colnames
 
 ## Convert the merged dataset to calculate the average of each variable
 ## by Subject and Activity
+library(reshape2) ## Activate library
 meltMergeData <- melt(mergeData, id = c("Subject", "Activity"), 
                                  variable.name = "Activ_Var", 
                                  value.name = "Activ_Value")
