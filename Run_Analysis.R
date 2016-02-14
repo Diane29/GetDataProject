@@ -1,8 +1,7 @@
 library(reshape2)
 setwd("/Users/Diane/Documents/GetDataProj/")
 
-## Input Training datasets from UCI Machine Learning 
-## datasets stored in a local folder
+## Input Training datasets stored in a local folder
 trainX <- read.table("./train/X_train.txt",header=FALSE)
 trainY <- read.table("./train/Y_train.txt",header=FALSE)
 trainSub <- read.table("./train/subject_train.txt",header=FALSE)
@@ -54,8 +53,8 @@ colnames(mergeData) <- Desc_colnames
 ## Convert the merged dataset to calculate the average of each variable
 ## by Subject and Activity
 meltMergeData <- melt(mergeData, id = c("Subject", "Activity"), 
-                      variable.name = "Activ_Var", 
-                      value.name = "Activ_Value")
+                                 variable.name = "Activ_Var", 
+                                 value.name = "Activ_Value")
 castMergeData  <- dcast(meltMergeData,Subject + Activity ~ Activ_Var,mean)
 FinalData <- castMergeData[,-3] ## Remove 'Labels' column
 table(is.na(FinalData)) ## Check for missing values
