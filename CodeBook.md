@@ -30,8 +30,10 @@ Acc - Acceleration
 Mag - Magnitude
 XYZ - 3-axial signals in the X, Y and Z directions
 
-###Subject - the number indentifying the subject in the data
-###Activity - the type of activity associted with measurements (signals) listed below
+###Subject 
+- number indentifying the subject in the data
+###Activity 
+- type of activity associted with measurements (signals) listed below
   1 - WALKING
   2 - WALKING_UPSTAIRS
   3 - WALKING_DOWNSTAIRS
