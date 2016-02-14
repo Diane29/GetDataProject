@@ -1,6 +1,5 @@
 # Getting and Cleaning Data Project
 ### Diandra Jones
-### February 13, 2016
 =============================================================================================================
 
 ### The R script
@@ -30,15 +29,14 @@ Acc - Acceleration
 Mag - Magnitude
 XYZ - 3-axial signals in the X, Y and Z directions
 
-- Subject - the number indentifying the subject in the data
-- Activity - the type of activity associted with measurements (signals) listed below
+-Subject - the number indentifying the subject in the data
+-Activity - the type of activity associted with measurements (signals) listed below
   1 - WALKING
   2 - WALKING_UPSTAIRS
   3 - WALKING_DOWNSTAIRS
   4 - SITTING
   5 - STANDING
   6 - LAYING
-
 
 Time Domain Signals:-          	
 -TimeBodyAcc-Mean-X		-TimeBodyAcc-Mean-Y		-TimeBodyAcc-Mean-Z
