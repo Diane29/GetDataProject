@@ -2,7 +2,7 @@
 ## Diandra Jones
 =============================================================================================================
 
-### The R script
+## The R script
 Run_Analysis.R selects and tidy the data downloaded from UCI Machine Learning Repository
 
 - Create a folder on the local directory after downloading data from UCI
@@ -17,22 +17,21 @@ Run_Analysis.R selects and tidy the data downloaded from UCI Machine Learning Re
 - Then cast melted dataset and calculate the average of each variable by Subject and Activity
 - Modify the final tidy dataset and check for missing values
 - Write tidy dataset to a text file to be uploaded to github
-================================================================================================================
 
-### Variables in Tidy Dataset
+## Variables in Tidy Dataset
 There are 68 variables in the dataset
 - Subject and Activity
-- 40 Time Domain Signals having either mean or standard deviation
-- 26 Frequency Domain Signals having either mean or standad deviation
+- 40 Time Domain Signals with either mean or standard deviation
+- 26 Frequency Domain Signals with either mean or standad deviation
 
-Abbreviations
+### Abbreviations
 StdDev- Standard Deviation
 Acc - Acceleration
 Mag - Magnitude
 XYZ - 3-axial signals in the X, Y and Z directions
 
-Subject - the number indentifying the subject in the data
-Activity - the type of activity associted with measurements (signals) listed below
+###Subject - the number indentifying the subject in the data
+###Activity - the type of activity associted with measurements (signals) listed below
   1 - WALKING
   2 - WALKING_UPSTAIRS
   3 - WALKING_DOWNSTAIRS
